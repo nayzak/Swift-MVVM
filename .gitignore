@@ -1,5 +1,6 @@
 # Xcode
 #
+.fetch_time_cache
 build/
 *.pbxuser
 !default.pbxuser

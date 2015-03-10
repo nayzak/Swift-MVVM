@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BeerListPage" customModule="AmurnetFramework" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="yJp-Mb-sF9" id="nIx-fa-ff6"/>
+                <outlet property="view" destination="iN0-l3-epB" id="17y-lc-BZ7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="yJp-Mb-sF9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="yJp-Mb-sF9" secondAttribute="trailing" id="2Eu-AR-0zE"/>
+                <constraint firstItem="yJp-Mb-sF9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5YY-bm-dW6"/>
+                <constraint firstItem="yJp-Mb-sF9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9Jw-kf-Fup"/>
+                <constraint firstAttribute="bottom" secondItem="yJp-Mb-sF9" secondAttribute="bottom" id="UYM-6e-k6Y"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="260" y="387"/>
+        </view>
+    </objects>
+</document>
